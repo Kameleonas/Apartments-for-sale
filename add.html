@@ -21,9 +21,24 @@
         </header>
         <main>
             <form>
-
+                <h4>Add Property</h4><br><br>
+                <p><strong>IMG</strong></p>
+                <input type="text" id="imgLocation" placeholder="https://google.lt/butai.png">
+                <p><strong>Price, EUR</strong></p>
+                <input type="number" id="price" placeholder="50000">
+                <p><strong>Description</strong></p>
+                <textarea id="description" cols="30" rows="5" placeholder="anything you would like to say?"></textarea>
+                <p><strong>City</strong></p>
+                <select id="city">
+                    <option value="Vilnius">Vilnius</option>
+                    <option value="Kaunas">Kaunas</option>
+                    <option value="Klaipėda">Klaipėda</option>
+                </select><br>
+                <button type="submit" class="addProperty">Add property</button>
             </form>
+            <a href="/index.html"><button id="back">Go Back</button></a>
         </main>
     </body>
+    <script src="add.js"></script>
 
 </html>

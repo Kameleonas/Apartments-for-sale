@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+main{
+    height: 70vh;
+}
 header{
     height: 15vh;
     display: flex;
@@ -20,4 +23,44 @@ header > p{
 }
 header > h2{
     margin-bottom: 0;
+}
+form > h4{
+    font-weight: 500;
+    color: rgb(87, 87, 87);
+}
+form > p{
+    color: #313131;
+    font-weight: 100;
+}
+form > input, textarea, select{
+    width: 100%;
+    margin: .5vh 0 .5vh 0;
+    padding: 1vh;
+    border: 1px solid #C0C0C0;
+}
+form > select{
+    width: auto;
+    padding-right: 2vw;
+}
+.addProperty{
+    position: relative;
+    margin-left: 15vw;
+    margin-top: 3vh;
+    background-color: rgb(2 212 177);
+    color: whitesmoke;
+}
+.addProperty:hover{
+    transform: translate(2px, 2px);
+    box-shadow: -2px -2px 2px 2px #C0C0C0;
+}
+#back{
+    position: absolute;
+    right: 10vw;
+    margin-top: 3vh;
+    background-color: rgb(226, 51, 51);
+    color: whitesmoke;
+}
+#back:hover{
+    transform: translate(2px, 2px);
+    box-shadow: -2px -2px 2px 2px #C0C0C0;
 }
