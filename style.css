@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10vw 0 15vw;
+    background-color: rgb(2 212 177);
+}
+header > h2, p {
+    color: whitesmoke;
+}
+header > p{
+    margin-top: 1px;
+}
+header > h2{
+    margin-bottom: 0;
+}
+main{
+    padding: 3vh 10vw 0 15vw;
+}
+main > p{
+    color: black;
+    margin-bottom: 2vh;
+}
+button{
+    height: 4vh;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #C0C0C0;
+}
+button:not(:last-child):hover{
+    border-color: rgb(2 212 177);
+    color: rgb(2 212 177);
+}
+.addProperty{
+    position: absolute;
+    right: 15vw;
+    background-color: rgb(2 212 177);
+    color: whitesmoke;
+}
+.addProperty:hover{
+    transform: translate(2px, 2px);
+    box-shadow: -2px -2px 2px 2px #C0C0C0;
+}
+#cards{
+    display: flex;
+    height: 40vh;
+    margin-top: 2vh;
+}
+.card{
+    margin: 0 1% 0 1%;
+    width: 23%;
+    height: 100%;
+    border: 1px solid #C0C0C0;
+}
+.card > img{
+    width: 100%;
+    height: 50%;
+}
+.cardDescription > p{
+    color: black;
+    padding: .5em;
+}
+.price{
+    font-weight: 800;
+}

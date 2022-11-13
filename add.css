@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10vw 0 15vw;
+    background-color: rgb(2 212 177);
+}
+header > h2, p {
+    color: whitesmoke;
+}
+header > p{
+    margin-top: 1px;
+}
+header > h2{
+    margin-bottom: 0;
+}
