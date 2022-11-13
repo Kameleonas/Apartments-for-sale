@@ -53,14 +53,23 @@ form > select{
     transform: translate(2px, 2px);
     box-shadow: -2px -2px 2px 2px #C0C0C0;
 }
-#back{
+#back, #back2 {
     position: absolute;
     right: 10vw;
     margin-top: 3vh;
     background-color: rgb(226, 51, 51);
     color: whitesmoke;
 }
+#back2{
+    bottom: 10vh;
+}
 #back:hover{
     transform: translate(2px, 2px);
     box-shadow: -2px -2px 2px 2px #C0C0C0;
 }
+#back2:hover{
+    transform: translate(2px, 2px);
+    box-shadow: -2px -2px 2px 2px #C0C0C0;
+}
+
+

@@ -26,9 +26,27 @@ function createObjectData() {
 // post new values to API
 function post(incomingObject) {
   fetch(BASE_URL, {
-    method: "DELETE",
+    method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(incomingObject),
+  })
+    .then((res) => {
+      if (res.ok) {
+        console.log(res.status);
+      } else {
+        console.log(res.status);
+      }
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+}
+
+// delete inputs from API
+function clear() {
+  const url = "https://robust-safe-crafter.glitch.me";
+  fetch(url, {
+    method: "DELETE",
   })
     .then((res) => {
       if (res.ok) {
